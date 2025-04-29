@@ -1,5 +1,6 @@
 using System.Text.Json.Serialization;
 using APICatalogo.Context;
+using APICatalogo.DTOs.Mappings;
 using APICatalogo.Extensions;
 using APICatalogo.Filters;
 using APICatalogo.Logging;
@@ -39,6 +40,8 @@ builder.Logging.AddProvider(new CustomLoggerProvider(new CustomLoggerProviderCon
 {
     LogLevel = LogLevel.Information
 }));
+
+builder.Services.AddAutoMapper(typeof(ProdutoDTOMappingProfile)); //Informa ao automapper que os produtos devem ser procurados no assembly da classe
 
 var app = builder.Build();
 
