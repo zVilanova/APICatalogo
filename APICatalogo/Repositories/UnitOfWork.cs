@@ -32,9 +32,9 @@ public class UnitOfWork : IUnitOfWork
         }
     }
 
-    public void Commit()
+    public async Task CommitAsync()
     {
-        _context.SaveChanges(); //Confirma todas as alterações presentes
+        await _context.SaveChangesAsync(); //Confirma todas as alterações presentes
     }
     public void Dispose()
     {
