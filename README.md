@@ -12,7 +12,7 @@ The API allows basic operations for managing catalog data, following standard RE
 - Apply good practices such as separation of concerns and clean architecture concepts
 
 ## Technologies Used
-- C# (.NET 8.0)
+- .NET 8.0
 - ASP.NET Core
 - Entity Framework Core
 - MySQL
