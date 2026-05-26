@@ -6,7 +6,7 @@ O projeto foi criado com foco em aprendizado de desenvolvimento backend utilizan
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - C#
 - .NET 8
@@ -17,7 +17,7 @@ O projeto foi criado com foco em aprendizado de desenvolvimento backend utilizan
 
 ---
 
-## 📌 Funcionalidades
+## Funcionalidades
 
 - CRUD de produtos
 - CRUD de categorias
@@ -27,7 +27,7 @@ O projeto foi criado com foco em aprendizado de desenvolvimento backend utilizan
 
 ---
 
-## 🧩 Estrutura do Projeto
+## Estrutura do Projeto
 
 | Camada | Tecnologia |
 |---|---|
@@ -38,7 +38,7 @@ O projeto foi criado com foco em aprendizado de desenvolvimento backend utilizan
 
 ---
 
-## 📡 Endpoints
+## Endpoints
 
 ### Categorias
 
@@ -64,7 +64,7 @@ O projeto foi criado com foco em aprendizado de desenvolvimento backend utilizan
 
 ---
 
-## 🛠️ Como executar o projeto
+## Como executar o projeto
 
 ### Clone o repositório
 
@@ -100,7 +100,7 @@ dotnet run
 
 ---
 
-## 📖 Swagger
+## Swagger
 
 Após executar a aplicação, acesse:
 
