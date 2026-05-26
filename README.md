@@ -1,19 +1,115 @@
-# API Catalog Project
+# 📚 APICatalogo
 
-This project is a study-focused implementation of a RESTful API built with ASP.NET Core, designed to simulate a product catalog system. The main goal of this project is to apply backend development concepts such as API design, data persistence, and system organization using modern .NET technologies.
-The API allows basic operations for managing catalog data, following standard REST principles such as resource-based endpoints and HTTP methods.
+API REST desenvolvida em ASP.NET Core para gerenciamento de catálogo de produtos e categorias.
 
-## Objectives
-- Practice backend development using C# and ASP.NET Core
-- Understand how to build and structure a REST API
-- Implement CRUD operations
-- Work with Entity Framework Core
-- Learn how to document APIs using Swagger
-- Apply good practices such as separation of concerns and clean architecture concepts
+O projeto foi criado com foco em aprendizado de desenvolvimento backend utilizando .NET, Entity Framework Core e integração com banco de dados MySQL.
 
-## Technologies Used
-- .NET 8.0
-- ASP.NET Core
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- C#
+- .NET 8
+- ASP.NET Core Web API
 - Entity Framework Core
 - MySQL
-- Swagger
+- Swagger / Swashbuckle
+
+---
+
+## 📌 Funcionalidades
+
+- CRUD de produtos
+- CRUD de categorias
+- Relacionamento entre entidades
+- Integração com banco de dados MySQL
+- Documentação automática com Swagger
+
+---
+
+## 🧩 Estrutura do Projeto
+
+| Camada | Tecnologia |
+|---|---|
+| API | ASP.NET Core Web API |
+| ORM | Entity Framework Core |
+| Banco de Dados | MySQL |
+| Documentação | Swagger |
+
+---
+
+## 📡 Endpoints
+
+### Categorias
+
+| Método | Endpoint | Descrição |
+|---|---|---|
+| GET | `/api/categorias` | Lista categorias |
+| GET | `/api/categorias/{id}` | Busca categoria por ID |
+| POST | `/api/categorias` | Cria categoria |
+| PUT | `/api/categorias/{id}` | Atualiza categoria |
+| DELETE | `/api/categorias/{id}` | Remove categoria |
+
+---
+
+### Produtos
+
+| Método | Endpoint | Descrição |
+|---|---|---|
+| GET | `/api/produtos` | Lista produtos |
+| GET | `/api/produtos/{id}` | Busca produto por ID |
+| POST | `/api/produtos` | Cria produto |
+| PUT | `/api/produtos/{id}` | Atualiza produto |
+| DELETE | `/api/produtos/{id}` | Remove produto |
+
+---
+
+## 🛠️ Como executar o projeto
+
+### Clone o repositório
+
+```bash
+git clone https://github.com/zVilanova/APICatalogo.git
+```
+
+### Acesse a pasta do projeto
+
+```bash
+cd APICatalogo
+```
+
+### Configure a connection string
+
+Edite o arquivo:
+
+```bash
+appsettings.json
+```
+
+### Execute as migrations
+
+```bash
+dotnet ef database update
+```
+
+### Execute o projeto
+
+```bash
+dotnet run
+```
+
+---
+
+## 📖 Swagger
+
+Após executar a aplicação, acesse:
+
+```bash
+https://localhost:7162/swagger
+```
+
+---
+
+## 🎯 Objetivo do Projeto
+
+O objetivo deste projeto foi praticar conceitos de desenvolvimento backend com ASP.NET Core, modelagem de entidades, relacionamento entre tabelas e construção de APIs REST.
